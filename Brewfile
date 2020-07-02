@@ -1,4 +1,5 @@
-# Brewfile
+tap "homebrew/cask-fonts"
+
 brew "wget"
 brew "watchman"
 brew "antigen"
@@ -9,6 +10,7 @@ brew "mas"
 cask "hyper"
 cask "visual-studio-code"
 cask "gpg-suite-no-mail"
+cask "font-hack"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
