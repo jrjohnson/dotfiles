@@ -18,7 +18,7 @@ antigen bundle git
 antigen bundle git-remote-branch
 antigen bundle heroku
 antigen bundle history
-antigen bundle nvm
+antigen bundle npm
 antigen bundle rvm
 antigen bundle symfony2
 antigen bundle vscode
