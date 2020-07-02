@@ -28,3 +28,4 @@
     stdout: true
     stderr: true
     stdin: true
+  - [gibo dump macOS VisualStudioCode JetBrains  >> ~/.gitignore_global, Add Gitignore Defaults]
