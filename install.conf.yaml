@@ -24,7 +24,7 @@
   - [git submodule update --init --recursive, Installing submodules]
   -
     description: "Setup OSX Defaults"
-    command: "./macos-setup"
+    command: "./scripts/macos-setup"
     stdout: true
     stderr: true
     stdin: true
