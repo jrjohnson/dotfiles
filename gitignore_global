@@ -1,0 +1,7 @@
+.DS_Store
+.sass_cache
+.idea
+jsconfig.json
+.vscode
+.history
+.ideas
