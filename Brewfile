@@ -7,6 +7,8 @@ brew "gibo"
 brew "mas"
 
 cask "hyper"
+cask "visual-studio-code"
+
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
 mas "BBedit", id: 404009241
