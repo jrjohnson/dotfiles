@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+# Do this in a script because nvm isn't a binarry it is a function so it has to be sourced
+# before it can be used.
+
+source ~/.antigen/bundles/lukechilds/zsh-nvm/zsh-nvm.plugin.zsh
+
+nvm install "lts/*"
+nvm alias default "lts/*"
+nvm use default
