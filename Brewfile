@@ -12,6 +12,7 @@ cask "visual-studio-code"
 cask "gpg-suite-no-mail"
 cask "font-hack"
 cask "github"
+cask "docker"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
