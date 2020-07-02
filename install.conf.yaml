@@ -10,9 +10,21 @@
     ~/.zshrc:
     ~/.hyper.js:
       force:  true
+    ~/p:
+      path: ~/Documents/code
+      ignore-missing: true
+    ~/i:
+      path: ~/Documents/code/ilios
+      ignore-missing: true
 
 - brewfile:
     - Brewfile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  -
+    description: "Setup OSX Defaults"
+    command: "./macos-setup"
+    stdout: true
+    stderr: true
+    stdin: true
