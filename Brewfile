@@ -8,6 +8,7 @@ brew "mas"
 
 cask "hyper"
 cask "visual-studio-code"
+cask "gpg-suite-no-mail"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
