@@ -4,6 +4,13 @@ brew "watchman"
 brew "antigen"
 brew "php"
 brew "gibo"
+brew "mas"
 
 cask "hyper"
+mas "Moom", id: 419330170
+mas "Todoist", id: 585829637
+mas "BBedit", id: 404009241
+mas "Unclutter", id: 577085396
+mas "Amphetamine", id: 937984704
+mas "Rename It", id: 443773246 
 
