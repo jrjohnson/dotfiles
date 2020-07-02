@@ -31,3 +31,4 @@
   - [gibo dump macOS VisualStudioCode JetBrains  >> ~/.gitignore_global, Add Gitignore Defaults]
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
   - [npm install -g diff-so-fancy ember-cli, Install Global NPM Dependencies]
+  - [code --install-extension Shan.code-settings-sync, Install Settings Sync Extension for VSCode]
