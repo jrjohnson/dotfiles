@@ -6,6 +6,7 @@ brew "antigen"
 brew "php"
 brew "gibo"
 brew "mas"
+brew "nss"
 
 cask "hyper"
 cask "visual-studio-code"
