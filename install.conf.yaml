@@ -1,6 +1,8 @@
 - defaults:
     link:
       relink: true
+    shell:
+      stderr: true
 
 - clean: ['~']
 
@@ -36,3 +38,4 @@
   - [pecl channel-update pecl.php.net, Update PECL]
   - [pecl install xdebug, Install xdebug]
   - [pecl install apcu, Install apcu]
+  - [curl -sS https://get.symfony.com/cli/installer | bash /dev/stdin --install-dir=/Users/jrjohnson/bin, Install Symfony Binary]

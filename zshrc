@@ -55,9 +55,6 @@ path+=("/Users/jrjohnson/bin")
 path+=("/Users/jrjohnson/.composer/vendor/bin")
 path+=("/Users/jrjohnson/.yarn/bin")
 
-# add symfony binary
-path+=("/Users/jrjohnson/.symfony/bin")
-
 export PATH
 
 export EDITOR=vim
