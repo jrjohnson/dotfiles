@@ -15,6 +15,7 @@ cask "font-hack"
 cask "github"
 cask "docker"
 cask "signal"
+cask "discord"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
