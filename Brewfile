@@ -7,6 +7,7 @@ brew "php"
 brew "gibo"
 brew "mas"
 brew "nss"
+brew "pipenv"
 
 cask "hyper"
 cask "visual-studio-code"
