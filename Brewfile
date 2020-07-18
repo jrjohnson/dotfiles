@@ -19,6 +19,7 @@ cask "docker"
 cask "signal"
 cask "discord"
 cask "skype"
+cask "jetbrains-toolbox"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
