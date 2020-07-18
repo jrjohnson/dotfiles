@@ -37,7 +37,8 @@
     stderr: true
     stdin: true
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
-  - [npm install -g diff-so-fancy ember-cli, Install Global NPM Dependencies]
+  - [npm list -g ember-cli || npm install -g ember-cli, Install Global Ember CLI]
+  - [npm list -g diff-so-fancy || npm install -g diff-so-fancy, Install Global Diff So Fancy]
   - [code --install-extension Shan.code-settings-sync, Install Settings Sync Extension for VSCode]
   - [pecl channel-update pecl.php.net, Update PECL]
   - [pecl install xdebug, Install xdebug]
