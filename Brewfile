@@ -8,6 +8,7 @@ brew "gibo"
 brew "mas"
 brew "nss"
 brew "pipenv"
+brew "github/gh/gh"
 
 cask "hyper"
 cask "visual-studio-code"
