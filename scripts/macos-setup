@@ -61,6 +61,19 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 25
 # Enable lid wakeup
 sudo pmset -a lidwake 1
 
+# Sleep the display after 60 minutes when charging
+sudo pmset -c displaysleep 60
+
+# Disable machine sleep while charging
+sudo pmset -c sleep 0
+
+# Sleep the display after 10 minutes on battery
+sudo pmset -b displaysleep 10
+# Set disks sleep to 15 minutes on battery
+sudo pmset -b disksleep 15
+# Set machine sleep to 15 minutes on battery
+sudo pmset -b sleep 15
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
@@ -71,6 +84,9 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 # Enable subpixel font rendering on non-Apple LCDs
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
+
+# Use the Flurry screen saver
+defaults write com.apple.screensaver moduleDict -dict moduleName Flurry path /System/Library/Screen\ Savers/Flurry.saver type 0
 
 ###############################################################################
 # Finder                                                                      #
