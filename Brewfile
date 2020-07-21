@@ -9,6 +9,7 @@ brew "mas"
 brew "nss"
 brew "pipenv"
 brew "github/gh/gh"
+brew "yarn"
 
 cask "hyper"
 cask "visual-studio-code"
