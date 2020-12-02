@@ -1,4 +1,5 @@
 tap "homebrew/cask-fonts"
+tap "blackfireio/homebrew-blackfire"
 
 brew "wget"
 brew "watchman"
@@ -10,6 +11,8 @@ brew "nss"
 brew "pipenv"
 brew "github/gh/gh"
 brew "yarn"
+brew "blackfire-agent"
+brew "blackfire-php74"
 
 cask "hyper"
 cask "visual-studio-code"
