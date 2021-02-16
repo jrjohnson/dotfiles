@@ -12,7 +12,7 @@ brew "pipenv"
 brew "github/gh/gh"
 brew "yarn"
 brew "blackfire-agent"
-brew "blackfire-php74"
+brew "blackfire-php80"
 
 cask "hyper"
 cask "visual-studio-code"
