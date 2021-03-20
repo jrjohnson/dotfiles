@@ -45,6 +45,8 @@ module.exports = {
     // opacity is only supported on macOS
     backgroundColor: '#000',
 
+    scrollback: 5000,
+
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
 
