@@ -11,7 +11,7 @@ brew "nss"
 brew "pipenv"
 brew "github/gh/gh"
 brew "yarn"
-brew "blackfire-agent"
+brew "blackfire"
 brew "blackfire-php80"
 
 cask "hyper"
