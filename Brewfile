@@ -25,6 +25,7 @@ cask "discord"
 cask "skype"
 cask "jetbrains-toolbox"
 cask "libreoffice"
+cask "balenaetcher"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
