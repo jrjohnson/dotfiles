@@ -24,6 +24,7 @@
     ~/i:
       path: ~/Documents/code/ilios
       ignore-missing: true
+    /usr/local/etc/php/8.0/conf.d/99-ext-xdebug.ini:
 
 - brewfile:
     - Brewfile
