@@ -10,5 +10,6 @@ alias cc="~/i/api/bin/console cache:clear --no-warmup; ~/i/api/bin/console cache
 alias startdemodb='docker pull ilios/mysql-demo; docker run -d --name ilios-demo-db -p 3306:3306 ilios/mysql-demo'
 alias startelasticsearch='docker run -d --name ilios-elasticsearch -p 9200:9200 elasticsearch:6.5.4'
 alias demodb='docker exec -it ilios-demo-db bash'
-alias dc='docker-compose --env-file ~/.docker-empty.env'
+alias dc='docker compose --env-file ~/.docker-empty.env'
+alias d-c='docker-compose --env-file ~/.docker-empty.env'
 alias composerless='rm -rf vendor; RM_STAR_SILENT=true rm -rf bin/.phpunit; RM_STAR_SILENT=true rm -rf var/cache/*;php -d memory_limit=-1 ~/bin/composer install; bin/console cache:warmup'
