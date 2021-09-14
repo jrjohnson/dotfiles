@@ -29,6 +29,7 @@ cask "libreoffice"
 cask "balenaetcher"
 cask "ngrok"
 cask "box-notes"
+cask "altair-graphql-client"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
