@@ -40,6 +40,7 @@
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
   - [npm list -g ember-cli || npm install -g ember-cli, Install Global Ember CLI]
   - [npm list -g diff-so-fancy || npm install -g diff-so-fancy, Install Global Diff So Fancy]
+  - [npm list -g nodemon || npm install -g nodemon, Install Global Nodemon]
   - [pecl channel-update pecl.php.net, Update PECL]
   - [pecl install xdebug, Install xdebug]
   - [pecl install apcu, Install apcu]
