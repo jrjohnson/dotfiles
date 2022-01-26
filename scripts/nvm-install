@@ -5,6 +5,6 @@
 
 source ~/.antigen/bundles/lukechilds/zsh-nvm/zsh-nvm.plugin.zsh
 
-nvm install "lts/fermium"
-nvm alias default "lts/fermium"
+nvm install "lts/gallium"
+nvm alias default "lts/gallium"
 nvm use default
