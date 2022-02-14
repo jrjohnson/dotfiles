@@ -135,6 +135,9 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    // open new tabs in ~
+    preserveCWD: false,
   },
 
   // a list of plugins to fetch and install from npm
