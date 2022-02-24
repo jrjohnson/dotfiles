@@ -16,7 +16,7 @@
       path: symfony-dev-proxy.json
       create: true
       force: true
-    ~/Library/Application Support/Hyper/.hyper.js:
+    ~/.hyper.js:
       force:  true
     ~/p:
       path: ~/Documents/code
