@@ -1,5 +1,6 @@
 tap "homebrew/cask-fonts"
 tap "blackfireio/homebrew-blackfire"
+tap "homebrew/cask-versions"
 
 brew "wget"
 brew "watchman"
