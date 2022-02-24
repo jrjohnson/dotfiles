@@ -22,7 +22,7 @@ antigen bundle npm
 antigen bundle rvm
 antigen bundle symfony2
 antigen bundle vscode
-antigen bundle osx
+antigen bundle macos
 
 
 # Other Bundles
