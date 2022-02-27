@@ -17,6 +17,8 @@ brew "yarn"
 brew "blackfire"
 brew "blackfire-php80"
 brew "bat"
+brew "bat-extras"
+brew "ripgrep"
 brew "git-delta"
 
 cask "hyper"
