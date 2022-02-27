@@ -6,7 +6,7 @@
 	excludesfile = /Users/jrjohnson/.gitignore_global
 	editor = vim 
 	autocrlf = input
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 [push]
 	default = simple
 [credential]
@@ -30,12 +30,15 @@
 	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg
-[color]
-	ui = true
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
 [init]
 	defaultBranch = main
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
+	side-by-side = true
+	line-numbers = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default

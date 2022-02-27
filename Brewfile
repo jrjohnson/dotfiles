@@ -16,6 +16,8 @@ brew "gh"
 brew "yarn"
 brew "blackfire"
 brew "blackfire-php80"
+brew "bat"
+brew "git-delta"
 
 cask "hyper"
 cask "visual-studio-code"
