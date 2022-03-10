@@ -39,6 +39,7 @@ cask "altair-graphql-client"
 cask "lastpass"
 cask "firefox-developer-edition"
 cask "slack"
+cask "pastebot"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
