@@ -39,8 +39,5 @@
     stderr: true
     stdin: true
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
-  - [pecl channel-update pecl.php.net, Update PECL]
-  - [pecl install xdebug, Install xdebug]
-  - [pecl install apcu, Install apcu]
   - [curl -sS https://get.symfony.com/cli/installer | bash /dev/stdin --install-dir=/Users/jrjohnson/bin, Install Symfony Binary]
   - [touch ~/.docker-empty.env]
