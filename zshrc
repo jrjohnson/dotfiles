@@ -1,5 +1,5 @@
 #installed with `brew install antigen` and used to manage packages
-source /usr/local/share/antigen/antigen.zsh
+source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -55,7 +55,14 @@ SAVEHIST=10000000
 path+=("/Users/jrjohnson/bin")
 path+=("/Users/jrjohnson/.composer/vendor/bin")
 path+=("/Users/jrjohnson/.yarn/bin")
+path+=("/opt/homebrew/bin")
+path+=("/opt/homebrew/sbin")
+
+manpath+=("/opt/homebrew/share/man")
+infopath+=("/opt/homebrew/share/info")
 
 export PATH
+export MANPATH
+export INFOPATH
 
 export EDITOR=vim
