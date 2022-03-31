@@ -4,7 +4,6 @@ tap "homebrew/cask-versions"
 tap "shivammathur/extensions"
 
 brew "wget"
-brew "watchman"
 brew "antigen"
 brew "php@8.0"
 brew "php"
