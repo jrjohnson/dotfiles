@@ -24,6 +24,7 @@ brew "bat"
 brew "bat-extras"
 brew "ripgrep"
 brew "git-delta"
+brew "watchman"
 
 cask "hyper"
 cask "visual-studio-code"
