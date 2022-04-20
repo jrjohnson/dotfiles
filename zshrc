@@ -31,6 +31,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # configure and use nvm
 export NVM_COMPLETION=true
+export NVM_AUTO_USE=true
 antigen bundle lukechilds/zsh-nvm
 antigen bundle lukechilds/zsh-better-npm-completion
 
