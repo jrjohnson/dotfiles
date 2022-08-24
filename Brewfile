@@ -58,3 +58,4 @@ mas "Unclutter", id: 577085396
 mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246
 mas "AutoMute - No More Oopsies", id: 1118136179
+mas "Keynote", id: 409183694
