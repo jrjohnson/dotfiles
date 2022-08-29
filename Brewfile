@@ -50,6 +50,7 @@ cask "slack"
 cask "pastebot"
 cask "dash"
 cask "calibre"
+cask "browserstacklocal"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
@@ -59,3 +60,4 @@ mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246
 mas "AutoMute - No More Oopsies", id: 1118136179
 mas "Keynote", id: 409183694
+mas "Xcode", id: 497799835
