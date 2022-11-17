@@ -62,7 +62,7 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 25
 sudo pmset -a lidwake 1
 
 # Sleep the display after 60 minutes when charging
-sudo pmset -c displaysleep 60
+sudo pmset -c displaysleep 300
 
 # Disable machine sleep while charging
 sudo pmset -c sleep 0
@@ -115,7 +115,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 ###############################################################################
 
 # Move the Dock to the left
-defaults write com.apple.dock orientation left
+defaults write com.apple.dock orientation bottom
 
 # Set the icon size of Dock items to 48 pixels
 defaults write com.apple.dock tilesize -int 48
@@ -137,7 +137,3 @@ defaults write com.apple.dock mru-spaces -bool false
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
-
-# Bottom left screen corner → Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
-defaults write com.apple.dock wvous-bl-modifier -int 0
