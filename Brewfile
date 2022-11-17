@@ -51,6 +51,7 @@ cask "pastebot"
 cask "dash"
 cask "calibre"
 cask "browserstacklocal"
+cask "obsidian"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
