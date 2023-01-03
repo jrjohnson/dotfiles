@@ -53,6 +53,7 @@ cask "calibre"
 cask "browserstacklocal"
 cask "obsidian"
 cask "logitech-presentation"
+cask "kobo"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
