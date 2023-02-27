@@ -56,6 +56,7 @@ SAVEHIST=10000000
 path+=("/Users/jrjohnson/bin")
 path+=("/Users/jrjohnson/.composer/vendor/bin")
 path+=("/Users/jrjohnson/.yarn/bin")
+path+=("/Users/jrjohnson/.docker/bin")
 path+=("/opt/homebrew/bin")
 path+=("/opt/homebrew/sbin")
 
@@ -67,3 +68,5 @@ export MANPATH
 export INFOPATH
 
 export EDITOR=vim
+
+source /Users/jrjohnson/.docker/init-zsh.sh || true # Added by Docker Desktop
