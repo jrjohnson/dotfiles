@@ -33,6 +33,7 @@ brew "bat-extras"
 brew "ripgrep"
 brew "git-delta"
 brew "watchman"
+brew "multimarkdown"
 
 cask "hyper"
 cask "visual-studio-code"
@@ -60,6 +61,7 @@ cask "obsidian"
 cask "logitech-presentation"
 cask "kobo"
 cask "obs"
+cask "prince"
 
 mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
