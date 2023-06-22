@@ -15,7 +15,6 @@ antigen bundle docker
 antigen bundle ember-cli
 antigen bundle extract
 antigen bundle git
-antigen bundle git-remote-branch
 antigen bundle heroku
 antigen bundle history
 antigen bundle npm
@@ -24,20 +23,9 @@ antigen bundle symfony2
 antigen bundle vscode
 antigen bundle macos
 
-
-# Other Bundles
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
-
 # configure and use nvm
-export NVM_COMPLETION=true
 export NVM_AUTO_USE=true
 antigen bundle lukechilds/zsh-nvm
-antigen bundle lukechilds/zsh-better-npm-completion
-
-# Load the theme.
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure@main
 
 # Tell Antigen that you're done.
 antigen apply

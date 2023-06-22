@@ -12,6 +12,7 @@
     ~/.vimrc:
     ~/.zprofile:
     ~/.zshrc:
+    ~/.warp:
     ~/.symfony/proxy.json:
       path: symfony-dev-proxy.json
       create: true
