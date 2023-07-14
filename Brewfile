@@ -48,7 +48,6 @@ cask "jetbrains-toolbox"
 cask "libreoffice"
 cask "balenaetcher"
 cask "ngrok"
-cask "box-notes"
 cask "altair-graphql-client"
 cask "lastpass"
 cask "firefox-developer-edition"
@@ -64,7 +63,6 @@ cask "obs"
 cask "prince"
 cask "warp"
 
-mas "Moom", id: 419330170
 mas "Todoist", id: 585829637
 mas "BBedit", id: 404009241
 mas "Unclutter", id: 577085396
