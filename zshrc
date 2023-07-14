@@ -57,5 +57,3 @@ export MANPATH
 export INFOPATH
 
 export EDITOR=vim
-
-source /Users/jrjohnson/.docker/init-zsh.sh || true # Added by Docker Desktop
