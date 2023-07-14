@@ -1,5 +1,6 @@
 # from https://github.com/warpdotdev/themes/blob/a7ab5ec9f2a6bba0f5319c070a703822e0f4a5ee/base16/base16_snazzy.yaml
 
+accent: "#57c7ff"
 background: "#282a36"
 details: darker
 foreground: "#e2e4e5"
