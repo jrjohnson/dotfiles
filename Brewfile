@@ -63,7 +63,6 @@ cask "obs"
 cask "prince"
 cask "warp"
 
-mas "Todoist", id: 585829637
 mas "BBedit", id: 404009241
 mas "Unclutter", id: 577085396
 mas "Amphetamine", id: 937984704
