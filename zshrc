@@ -46,6 +46,7 @@ path+=("/Users/jrjohnson/bin")
 path+=("/Users/jrjohnson/.composer/vendor/bin")
 path+=("/Users/jrjohnson/.yarn/bin")
 path+=("/Users/jrjohnson/.docker/bin")
+path+=("/Users/jrjohnson/Library/Application Support/JetBrains/Toolbox/scripts")
 path=("/opt/homebrew/bin" $path)
 path=("/opt/homebrew/sbin" $path)
 
