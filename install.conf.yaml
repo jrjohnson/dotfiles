@@ -13,7 +13,7 @@
     ~/.zprofile:
     ~/.zshrc:
     ~/.warp:
-    ~/.symfony/proxy.json:
+    ~/.symfony5/proxy.json:
       path: symfony-dev-proxy.json
       create: true
       force: true
