@@ -18,5 +18,5 @@ npm list -g ember-cli || npm install -g ember-cli
 npm list -g nodemon || npm install -g nodemon
 npm list -g pnpm || npm install -g pnpm
 
-nvm alias default "lts/gallium"
+nvm alias default "lts/hydrogen"
 nvm use default
