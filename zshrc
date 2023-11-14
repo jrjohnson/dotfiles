@@ -23,6 +23,7 @@ antigen bundle rvm
 antigen bundle symfony2
 antigen bundle vscode
 antigen bundle macos
+antigen bundle direnv
 
 # configure and use nvm
 export NVM_AUTO_USE=true

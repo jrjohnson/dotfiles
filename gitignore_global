@@ -6,3 +6,4 @@ jsconfig.json
 .history
 .ideas
 php.ini
+.envrc
