@@ -10,19 +10,16 @@ nvm install "lts/fermium" # 14.x
 nvm install "lts/gallium" # 16.x
 npm list -g ember-cli || npm install -g ember-cli
 npm list -g nodemon || npm install -g nodemon
-npm list -g pnpm || npm install -g pnpm
 
 nvm install "lts/hydrogen" # 18.x
 npm install -g npm
 npm list -g ember-cli || npm install -g ember-cli
 npm list -g nodemon || npm install -g nodemon
-npm list -g pnpm || npm install -g pnpm
 
 nvm install "lts/iron" # 20.x
 npm install -g npm
 npm list -g ember-cli || npm install -g ember-cli
 npm list -g nodemon || npm install -g nodemon
-npm list -g pnpm || npm install -g pnpm
 
 nvm alias default "lts/iron"
 nvm use default

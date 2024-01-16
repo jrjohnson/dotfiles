@@ -32,6 +32,7 @@ brew "git-delta"
 brew "watchman"
 brew "multimarkdown"
 brew "direnv"
+brew "pnpm"
 
 cask "hyper"
 cask "visual-studio-code"
