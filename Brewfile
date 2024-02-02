@@ -69,3 +69,4 @@ mas "Rename It", id: 443773246
 mas "AutoMute - No More Oopsies", id: 1118136179
 mas "Keynote", id: 409183694
 mas "Xcode", id: 497799835
+mas "Hidden Bar", id: 1452453066
