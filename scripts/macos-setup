@@ -137,3 +137,6 @@ defaults write com.apple.dock mru-spaces -bool false
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
+
+# Turn off "click to reveal desktop"
+defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
