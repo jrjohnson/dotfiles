@@ -2,7 +2,7 @@
 alias ll="ls -l"
 alias yless='rm -rf node_modules bower_components dist tmp && yarn install'
 alias npmless='rm -rf node_modules dist tmp && npm install'
-alias pnpmless='rm -rf node_modules dist tmp && pnpm install'
+alias pnpmless='rm -rf **/node_modules && pnpm install'
 
 alias cs="~/i/api/vendor/bin/phpcs --standard=~/i/api/phpcs.xml.dist ~/i/api/src ~/i/api/tests"
 alias cct="rm -rf ~/i/api/var/tmp/*; rm -rf ~/i/api/var/cache/test; ~/i/api/bin/console cache:clear --no-warmup --env=test; ~/i/api/bin/console cache:warmup --env=test"
