@@ -61,6 +61,7 @@ cask "kobo"
 cask "obs"
 cask "prince"
 cask "warp"
+cask "rectangle-pro"
 
 mas "BBedit", id: 404009241
 mas "Unclutter", id: 577085396
