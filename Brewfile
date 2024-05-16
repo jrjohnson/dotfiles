@@ -1,4 +1,3 @@
-tap "homebrew/cask-fonts"
 tap "blackfireio/homebrew-blackfire"
 tap "homebrew/cask-versions"
 tap "shivammathur/extensions"
