@@ -3,6 +3,6 @@
     "host": "localhost",
     "port": 7080,
     "domains": {
-        "ilios.ucsf": "/Users/jrjohnson/i/api"
+        "ilios.ucsf": "/Users/jrjohnson/Documents/code/ilios/api"
     }
 }
