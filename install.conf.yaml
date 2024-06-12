@@ -43,5 +43,6 @@
     stdin: true
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
   - [curl -sS https://get.symfony.com/cli/installer | bash /dev/stdin --install-dir=/Users/jrjohnson/bin, Install Symfony Binary]
+  - [sudo codesign --force --deep --sign - /Users/jrjohnson/bin/symfony, Sign Symfony Binary]
   - [touch ~/.docker-empty.env]
   - [composer global require davidrjonas/composer-lock-diff:^1.0]
