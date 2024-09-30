@@ -19,7 +19,7 @@ alias cdif="cd ~/i/frontend"
 alias cdii="cd ~/i/api"
 
 switchphp() {
-  brew unlink php && brew link --force --overwrite php@$1
+  brew unlink php && brew link --overwrite --force shivammathur/php/php@$1
 }
 
 #homebrew setup
