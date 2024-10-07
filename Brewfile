@@ -28,6 +28,13 @@ brew "shivammathur/extensions/apcu@8.3"
 brew "shivammathur/extensions/redis@8.3"
 brew "shivammathur/extensions/pcov@8.3"
 
+brew "shivammathur/php/php@8.4"
+# brew "blackfire-php84"
+brew "shivammathur/extensions/xdebug@8.4"
+brew "shivammathur/extensions/apcu@8.4"
+brew "shivammathur/extensions/redis@8.4"
+brew "shivammathur/extensions/pcov@8.4"
+
 brew "bat"
 brew "bat-extras"
 brew "ripgrep"
