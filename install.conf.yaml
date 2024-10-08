@@ -49,3 +49,4 @@
   - [sudo codesign --force --deep --sign - /Users/jrjohnson/bin/symfony, Sign Symfony Binary]
   - [touch ~/.docker-empty.env]
   - [composer global require davidrjonas/composer-lock-diff:^1.0]
+  - [composer global require rector/rector:^1]
