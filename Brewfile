@@ -43,6 +43,7 @@ brew "watchman"
 brew "multimarkdown"
 brew "direnv"
 brew "pnpm"
+brew "gpatch"
 
 cask "hyper"
 cask "visual-studio-code"
