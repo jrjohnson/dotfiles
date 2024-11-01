@@ -19,7 +19,14 @@ alias cdif="cd ~/i/frontend"
 alias cdii="cd ~/i/api"
 
 switchphp() {
-  brew unlink php && brew link --overwrite --force shivammathur/php/php@$1
+  brew unlink php
+  if [ "$1" = "8.4" ]; then
+    echo "Switching to Shivammathur PHP 8.4"
+    brew unlink php@8.4 && brew link --force php@8.4
+  else
+    echo "Switching to PHP $1"
+    brew link --force --overwrite php@$1
+  fi
 }
 
 #homebrew setup
