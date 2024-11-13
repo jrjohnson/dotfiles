@@ -43,7 +43,7 @@
     stdout: true
     stderr: true
     stdin: true
-  - [brew link --overwrite --force shivammathur/php/php@8.3]
+  - [brew link --force --overwrite php@8.3]
   - [scripts/nvm-install, Install and Use Latest LTS Node Version]
   - [curl -sS https://get.symfony.com/cli/installer | bash /dev/stdin --install-dir=/Users/jrjohnson/bin, Install Symfony Binary]
   - [sudo codesign --force --deep --sign - /Users/jrjohnson/bin/symfony, Sign Symfony Binary]
