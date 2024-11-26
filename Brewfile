@@ -1,6 +1,5 @@
 tap "blackfireio/homebrew-blackfire"
 tap "homebrew/cask-versions"
-tap "shivammathur/php"
 tap "shivammathur/extensions"
 
 brew "wget"
