@@ -50,6 +50,7 @@ path+=("/Users/jrjohnson/.docker/bin")
 path+=("/Users/jrjohnson/Library/Application Support/JetBrains/Toolbox/scripts")
 path=("/opt/homebrew/bin" $path)
 path=("/opt/homebrew/sbin" $path)
+path=("/Users/jrjohnson/Library/pnpm" $path)
 
 manpath+=("/opt/homebrew/share/man")
 infopath+=("/opt/homebrew/share/info")
@@ -59,3 +60,7 @@ export MANPATH
 export INFOPATH
 
 export EDITOR=vim
+
+# pnpm
+export PNPM_HOME="/Users/jrjohnson/Library/pnpm"
+# pnpm end
