@@ -74,7 +74,6 @@ cask "warp"
 cask "rectangle-pro"
 
 mas "BBedit", id: 404009241
-mas "Unclutter", id: 577085396
 mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246
 mas "AutoMute - No More Oopsies", id: 1118136179
