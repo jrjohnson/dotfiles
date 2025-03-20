@@ -40,8 +40,8 @@ COMPLETION_WAITING_DOTS="true"
 # much, much faster.
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-HISTSIZE=10000000
-SAVEHIST=10000000
+HISTSIZE=1000000000
+SAVEHIST=1000000000
 
 path+=("/Users/jrjohnson/bin")
 path+=("/Users/jrjohnson/.composer/vendor/bin")
