@@ -140,3 +140,6 @@ defaults write com.apple.dock show-recents -bool false
 
 # Turn off "click to reveal desktop"
 defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
+
+# Enable "automatic" appearance dark mode an light mode
+defaults write NSGlobalDomain AppleInterfaceStyleSwitchesAutomatically -bool true
