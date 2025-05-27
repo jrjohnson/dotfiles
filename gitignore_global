@@ -7,3 +7,4 @@ jsconfig.json
 .ideas
 php.ini
 .envrc
+.php-version
