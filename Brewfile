@@ -27,7 +27,7 @@ brew "shivammathur/extensions/redis@8.3"
 brew "shivammathur/extensions/pcov@8.3"
 
 brew "php"
-# brew "blackfire-php84"
+brew "blackfire-php84"
 brew "shivammathur/extensions/xdebug@8.4"
 brew "shivammathur/extensions/apcu@8.4"
 brew "shivammathur/extensions/redis@8.4"
