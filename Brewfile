@@ -77,4 +77,3 @@ mas "Keynote", id: 409183694
 mas "Xcode", id: 497799835
 mas "Hidden Bar", id: 1452453066
 mas "1Password for Safari", id: 1569813296
-mas "Refined GitHub", id: 1519867270
