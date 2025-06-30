@@ -29,6 +29,9 @@ antigen bundle direnv
 export NVM_AUTO_USE=true
 antigen bundle lukechilds/zsh-nvm
 
+# Add z plugin that tracks your used directories for quick navigation
+antigen bundle agkozak/zsh-z
+
 # Tell Antigen that you're done.
 antigen apply
 
