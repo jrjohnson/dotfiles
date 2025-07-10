@@ -33,3 +33,5 @@ export HOMEBREW_REPOSITORY="/opt/homebrew";
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
 fi
+
+export DIRENV_LOG_FORMAT=$'\033[2mdirenv: %s\033[0m'
