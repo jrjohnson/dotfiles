@@ -17,8 +17,6 @@
       path: symfony-dev-proxy.json
       create: true
       force: true
-    ~/.hyper.js:
-      force: true
     ~/.config/direnv/direnv.toml:
       create: true
     ~/p:
