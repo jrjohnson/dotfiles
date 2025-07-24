@@ -1,2 +1,2 @@
 [whitelist]
-prefix = [ "~/Documents/code/ilios" ]
+prefix = [ "~/Documents/code/ilios", "~/Documents/code/upstreamilios" ]
