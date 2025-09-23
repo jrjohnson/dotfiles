@@ -2,8 +2,7 @@
 
 # Do this in a script because nvm isn't a binarry it is a function so it has to be sourced
 # before it can be used.
-
-source ~/.antigen/bundles/lukechilds/zsh-nvm/zsh-nvm.plugin.zsh
+source ~/.local/share/zinit/plugins/lukechilds---zsh-nvm/zsh-nvm.plugin.zsh
 
 nvm install "lts/hydrogen" # 18.x
 npm install -g npm

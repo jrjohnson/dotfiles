@@ -1,39 +1,12 @@
-#installed with `brew install antigen` and used to manage packages
-export ANTIGEN_CACHE=false
-source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+#installed with `brew install zinit` and used to manage packages
+source $HOMEBREW_PREFIX/opt/zinit/zinit.zsh
 
-# Load the oh-my-zsh's library.
-antigen use oh-my-zsh
-
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle aws
-antigen bundle brew
-antigen bundle colorize
-antigen bundle command-not-found
-antigen bundle composer
-antigen bundle docker-compose
-antigen bundle docker
-antigen bundle ember-cli
-antigen bundle extract
-antigen bundle git
-antigen bundle heroku
-antigen bundle history
-antigen bundle npm
-antigen bundle rvm
-antigen bundle symfony2
-antigen bundle vscode
-antigen bundle macos
-antigen bundle direnv
+zinit snippet OMZL::git.zsh
+zinit snippet OMZP::git
 
 # configure and use nvm
 export NVM_AUTO_USE=true
-antigen bundle lukechilds/zsh-nvm
-
-# Add z plugin that tracks your used directories for quick navigation
-antigen bundle agkozak/zsh-z
-
-# Tell Antigen that you're done.
-antigen apply
+zinit light lukechilds/zsh-nvm
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -67,3 +40,12 @@ export EDITOR=vim
 # pnpm
 export PNPM_HOME="/Users/jrjohnson/Library/pnpm"
 # pnpm end
+
+# enable zoxide
+eval "$(zoxide init zsh)"
+
+zinit snippet OMZP::vscode
+zinit snippet OMZP::direnv
+
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions

@@ -143,3 +143,6 @@ defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool fa
 
 # Enable "automatic" appearance dark mode an light mode
 defaults write NSGlobalDomain AppleInterfaceStyleSwitchesAutomatically -bool true
+
+# Disable auto correction of spelling as I type (this is mainly to fix it in Safari where it is constantly wrong)
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
