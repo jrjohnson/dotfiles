@@ -35,9 +35,6 @@ brew "shivammathur/extensions/apcu@8.4"
 brew "shivammathur/extensions/redis@8.4"
 brew "shivammathur/extensions/pcov@8.4"
 
-brew "bat"
-brew "bat-extras"
-brew "ripgrep"
 brew "git-delta"
 brew "watchman"
 brew "multimarkdown"
@@ -50,12 +47,10 @@ cask "gpg-suite-no-mail"
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "github"
-cask "docker"
+cask "docker-desktop"
 cask "signal"
 cask "discord"
-cask "skype"
 cask "jetbrains-toolbox"
-cask "libreoffice"
 cask "balenaetcher"
 cask "ngrok"
 cask "altair-graphql-client"
@@ -63,7 +58,6 @@ cask "1password"
 cask "firefox@developer-edition"
 cask "slack"
 cask "pastebot"
-cask "dash"
 cask "calibre"
 cask "obsidian"
 cask "logitech-presentation"
@@ -72,10 +66,8 @@ cask "obs"
 cask "prince"
 cask "warp"
 
-mas "BBedit", id: 404009241
 mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246
-mas "AutoMute - No More Oopsies", id: 1118136179
 mas "Keynote", id: 409183694
 mas "Xcode", id: 497799835
 mas "Hidden Bar", id: 1452453066
