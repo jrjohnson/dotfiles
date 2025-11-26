@@ -65,6 +65,7 @@ cask "kobo"
 cask "obs"
 cask "prince"
 cask "warp"
+cask "fastmail"
 
 mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246
