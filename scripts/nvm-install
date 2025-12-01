@@ -19,5 +19,10 @@ npm install -g npm
 npm list -g ember-cli || npm install -g ember-cli
 npm list -g nodemon || npm install -g nodemon
 
-nvm alias default "lts/jod"
+nvm install "lts/krypton" # 24.x
+npm install -g npm
+npm list -g ember-cli || npm install -g ember-cli
+npm list -g nodemon || npm install -g nodemon
+
+nvm alias default "lts/krypton"
 nvm use default
