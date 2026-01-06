@@ -54,4 +54,4 @@
       ]
     - [touch ~/.docker-empty.env]
     - [composer global require davidrjonas/composer-lock-diff:^1.0]
-    - [composer global require rector/rector:^1]
+    - [composer global require rector/rector:^2]
