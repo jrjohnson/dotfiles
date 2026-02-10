@@ -49,3 +49,11 @@ zinit snippet OMZP::direnv
 
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
+
+# Initialize completion system
+autoload -Uz compinit
+compinit
+zinit cdreplay -q
+
+# add auto complete for ilios commands
+eval "$(/Users/jrjohnson/Documents/code/ilios/api/bin/console completion zsh)"
