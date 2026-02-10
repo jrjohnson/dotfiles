@@ -146,3 +146,11 @@ defaults write NSGlobalDomain AppleInterfaceStyleSwitchesAutomatically -bool tru
 
 # Disable auto correction of spelling as I type (this is mainly to fix it in Safari where it is constantly wrong)
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+###############################################################################
+# Time Machine                                                                #
+###############################################################################
+
+# Ignore All Node Modules For Backup (https://apple.stackexchange.com/a/473718)
+# find /Users/jrjohnson/Documents -type d -maxdepth 6 -name 'node_modules' -print0 | xargs -0 -n 1 tmutil addexclusion
+# tmutil addexclusion /Users/jrjohnson/Documents/api/vendor
