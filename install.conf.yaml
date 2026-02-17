@@ -23,6 +23,9 @@
     ~/.config/ghostty/config:
       path: ghostty.config
       create: true
+    ~/.config/nvim/init.lua:
+      path: nvim.init.lua
+      create: true
     ~/p:
       path: ~/Documents/code
       ignore-missing: true

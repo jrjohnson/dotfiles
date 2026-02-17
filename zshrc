@@ -35,7 +35,7 @@ export PATH
 export MANPATH
 export INFOPATH
 
-export EDITOR=vim
+export EDITOR=nvim
 
 # pnpm
 export PNPM_HOME="/Users/jrjohnson/Library/pnpm"

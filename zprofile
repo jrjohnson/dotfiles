@@ -8,7 +8,7 @@ alias cct="rm -rf ~/i/api/var/tmp/*; rm -rf ~/i/api/var/cache/test; ~/i/api/bin/
 alias cc="~/i/api/bin/console cache:clear --no-warmup; ~/i/api/bin/console cache:warmup"
 alias dc='docker compose --env-file ~/.docker-empty.env'
 alias composerless='rm -rf vendor; RM_STAR_SILENT=true rm -rf bin/.phpunit; RM_STAR_SILENT=true rm -rf var/cache/*;php -d memory_limit=-1 ~/bin/composer install; bin/console cache:warmup'
-
+alias vim='nvim'
 switchphp() {
   brew unlink php
   echo "Switching to PHP $1"

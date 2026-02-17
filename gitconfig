@@ -4,7 +4,7 @@
 	signingkey = 2062F1D0
 [core]
 	excludesfile = /Users/jrjohnson/.gitignore_global
-	editor = vim 
+	editor = nvim 
 	autocrlf = input
 	pager = delta
 [push]

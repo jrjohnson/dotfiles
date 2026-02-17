@@ -48,6 +48,7 @@ brew "multimarkdown"
 brew "direnv"
 brew "pnpm"
 brew "gpatch"
+brew "neovim"
 
 cask "visual-studio-code"
 cask "gpg-suite-no-mail"
