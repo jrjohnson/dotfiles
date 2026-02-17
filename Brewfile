@@ -74,7 +74,6 @@ cask "obs"
 cask "prince"
 cask "warp"
 cask "fastmail"
-cask "ghostty"
 
 mas "Amphetamine", id: 937984704
 mas "Rename It", id: 443773246

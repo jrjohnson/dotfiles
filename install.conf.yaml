@@ -20,9 +20,6 @@
     ~/.config/direnv/direnv.toml:
       create: true
       force: true
-    ~/.config/ghostty/config:
-      path: ghostty.config
-      create: true
     ~/.config/nvim/init.lua:
       path: nvim.init.lua
       create: true
