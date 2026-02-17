@@ -57,3 +57,8 @@ zinit cdreplay -q
 
 # add auto complete for ilios commands
 eval "$(/Users/jrjohnson/Documents/code/ilios/api/bin/console completion zsh)"
+
+export TYPEWRITTEN_PROMPT_LAYOUT="pure"
+export TYPEWRITTEN_SYMBOL="$"
+export TYPEWRITTEN_RELATIVE_PATH="home"
+zinit light reobin/typewritten

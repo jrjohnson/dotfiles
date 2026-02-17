@@ -19,6 +19,10 @@
       force: true
     ~/.config/direnv/direnv.toml:
       create: true
+      force: true
+    ~/.config/ghostty/config:
+      path: ghostty.config
+      create: true
     ~/p:
       path: ~/Documents/code
       ignore-missing: true
