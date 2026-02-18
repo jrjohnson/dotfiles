@@ -57,3 +57,24 @@ end
 
 -- Match unbuffered space at the end of a file to the normal theme background
 vim.api.nvim_set_hl(0, "EndOfBuffer", { link = "Normal" })
+
+-- Wrap and highlight lines in git commit messages
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "gitcommit",
+  callback = function()
+    vim.opt_local.textwidth = 72
+    vim.opt_local.formatoptions:append("t")
+  end,
+})
+
+vim.api.nvim_set_hl(0, "GitCommitOverflow", {
+  bg = "#aa0000",  -- red background
+})
+
+-- for the first line we want it to be less than 50 chars
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "gitcommit",
+  callback = function()
+    vim.fn.matchaddpos("GitCommitOverflow", { {1, 51} })
+  end,
+})
