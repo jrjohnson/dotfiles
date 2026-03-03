@@ -9,11 +9,6 @@ vim.opt.number = true
 vim.opt.wrap = true
 vim.opt.linebreak = true
 
-
--- store backup and undo files
-vim.opt.backup = true
-vim.opt.undofile = true
-
 -- slightly better visual for whitespace
 vim.opt.list = true
 vim.opt.listchars = { tab = ' »', trail = '·' }
