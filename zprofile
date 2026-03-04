@@ -20,9 +20,4 @@ export HOMEBREW_PREFIX="/opt/homebrew";
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
 export HOMEBREW_REPOSITORY="/opt/homebrew";
 
-#ngrok autocompletions
-if command -v ngrok &>/dev/null; then
-  eval "$(ngrok completion)"
-fi
-
 export DIRENV_LOG_FORMAT=$'\033[2mdirenv: %s\033[0m'
