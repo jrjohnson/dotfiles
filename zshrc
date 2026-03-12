@@ -58,7 +58,7 @@ zinit cdreplay -q
 # add auto complete for ilios commands
 eval "$(/Users/jrjohnson/Documents/code/ilios/api/bin/console completion zsh)"
 
-#ngrok autocompletions
-if command -v ngrok &>/dev/null; then
-  eval "$(ngrok completion)"
+# docker desktop completions
+if command -v docker &>/dev/null; then
+  eval "$(docker completion zsh)"
 fi
