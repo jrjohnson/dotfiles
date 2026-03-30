@@ -61,7 +61,7 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 25
 # Enable lid wakeup
 sudo pmset -a lidwake 1
 
-# Sleep the display after 60 minutes when charging
+# Sleep the display after 300 minutes when charging
 sudo pmset -c displaysleep 300
 
 # Disable machine sleep while charging
@@ -69,10 +69,14 @@ sudo pmset -c sleep 0
 
 # Sleep the display after 10 minutes on battery
 sudo pmset -b displaysleep 10
-# Set disks sleep to 15 minutes on battery
-sudo pmset -b disksleep 15
-# Set machine sleep to 15 minutes on battery
-sudo pmset -b sleep 15
+# Set disks sleep to 30 minutes on battery
+sudo pmset -b disksleep 30
+# Set machine sleep to 60 minutes on battery
+sudo pmset -b sleep 60
+
+# keep the network aliveish while on battery
+sudo pmset -b tcpkeepalive 1
+sudo pmset -b womp 1
 
 ###############################################################################
 # Screen                                                                      #
@@ -85,8 +89,8 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
-# Use the Flurry screen saver
-defaults write com.apple.screensaver moduleDict -dict moduleName Flurry path /System/Library/Screen\ Savers/Flurry.saver type 0
+# disable screen saver
+defaults write com.apple.screensaver idleTime 0
 
 ###############################################################################
 # Finder                                                                      #
