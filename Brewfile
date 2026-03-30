@@ -1,5 +1,6 @@
 tap "blackfireio/homebrew-blackfire"
 tap "shivammathur/extensions"
+tap "hashicorp/tap"
 
 brew "wget"
 brew "composer"
@@ -41,6 +42,8 @@ brew "shivammathur/extensions/xdebug@8.5"
 brew "shivammathur/extensions/apcu@8.5"
 brew "shivammathur/extensions/redis@8.5"
 brew "shivammathur/extensions/pcov@8.5"
+
+brew "hashicorp/tap/terraform"
 
 brew "git-delta"
 brew "watchman"
