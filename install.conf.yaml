@@ -35,6 +35,8 @@
     /opt/homebrew/etc/php/8.3/conf.d/99-ext-xdebug.ini:
     /opt/homebrew/etc/php/8.4/conf.d/99-overrides.ini:
     /opt/homebrew/etc/php/8.4/conf.d/99-ext-xdebug.ini:
+    /opt/homebrew/etc/php/8.5/conf.d/99-overrides.ini:
+    /opt/homebrew/etc/php/8.5/conf.d/99-ext-xdebug.ini:
 
 - brewfile:
     - Brewfile
