@@ -77,6 +77,7 @@ cask "obs"
 cask "prince"
 cask "warp"
 cask "fastmail"
+cask "vlc"
 
 mas "Rename It", id: 443773246
 mas "Keynote", id: 409183694
