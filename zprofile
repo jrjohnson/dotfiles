@@ -15,6 +15,10 @@ switchphp() {
   brew link --force --overwrite php@$1
 }
 
+jwt-decode() {
+  jq -R 'split(".") | .[1] | @base64d | fromjson' <<< "$1"
+}
+
 #homebrew setup
 export HOMEBREW_PREFIX="/opt/homebrew";
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
