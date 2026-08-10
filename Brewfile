@@ -52,6 +52,7 @@ brew "direnv"
 brew "pnpm"
 brew "gpatch"
 brew "neovim"
+brew "aws-sam-cli"
 
 cask "visual-studio-code"
 cask "gpg-suite-no-mail"
