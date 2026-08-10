@@ -9,6 +9,9 @@ alias cc="~/i/api/bin/console cache:clear --no-warmup; ~/i/api/bin/console cache
 alias dc='docker compose --env-file ~/.docker-empty.env'
 alias composerless='rm -rf vendor; RM_STAR_SILENT=true rm -rf bin/.phpunit; RM_STAR_SILENT=true rm -rf var/cache/*;php -d memory_limit=-1 ~/bin/composer install; bin/console cache:warmup'
 alias vim='nvim'
+alias gby='git for-each-ref --count=5 --sort=-committerdate refs/heads \
+  --format="%(color:yellow)%(refname:short)%(color:reset) %(color:green)%(committerdate:relative)%(color:reset) %(subject)"'
+
 switchphp() {
   brew unlink php
   echo "Switching to PHP $1"
