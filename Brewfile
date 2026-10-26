@@ -14,6 +14,7 @@ brew "blackfire"
 brew "zinit"
 brew "zoxide"
 brew "fzf"
+brew "yq"
 
 brew "php@8.2"
 brew "blackfire-php82"
